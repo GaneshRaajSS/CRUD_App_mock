@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>crudApp</title>
+</head>
+<body>
+    <form id="stud_form">
+        <label for="s_Id">Register Number</label>
+        <input type="number" name="s_Id" id="s_Id">
+        <br>
+        <br>
+        <label for="s_Name">Student Name </label>
+        <input type="text" name="s_Name" id="s_Name">
+        <br><br>
+        <label for="dept"> Department</label>
+        <input type="text" name="dept" id="dept">
+        <br><br>
+        <label for="Gender">Gender </label>
+        <select name="Gender" id="Gender">
+            <option value="male">Male</option>
+            <option value="Female">Female</option>
+        </select>
+        <br><br>
+        <label for="city">city</label>
+        <input type="text" name="city" id="city">
+        <br><br>
+        <label for="phoneNumber">Phone Number </label>
+        <input type="tel" name="phoneNumber" id="phoneNumber">
+        <br><br>
+        <button type="submit" onclick="submitform()">Submit</button>
+        <!-- <input type="submit" onclick="submitform()"/> -->
+    </form>
+    <br>
+    <button><a href="data.html">Stud_details</a></button>
+    <script src="index.js">
+        
+    </script>
+</body>
+</html>
